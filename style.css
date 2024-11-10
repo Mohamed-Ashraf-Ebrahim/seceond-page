@@ -1,0 +1,143 @@
+
+.web-title {
+    position: relative;
+    cursor: pointer;
+   
+    
+}
+.get{
+    width:130px;
+    font-size:50px;
+    font-style:oblique;
+    position: absolute;
+    top: 19.25%;
+    left: 45.31%;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.web-title-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.welcome-back {
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 131px);
+    font-size: 40px;
+    font-weight: 300;
+    color: #db1bbe;
+}
+
+
+
+
+
+.sign-in1 {
+    position: relative;
+    font-weight: 600;
+    border-radius: 22px;
+}
+.sign-in-wrapper {
+    position: absolute;
+    top: 494px;
+    left: calc(50% - 180px);
+    border-radius: 5px;
+    background-color: #db1bbe;
+    width: 350px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.forgot-password {
+    position: absolute;
+    top: 454px;
+    left: calc(50% + 90px);
+    font-size: 16px;
+    color: #db1bbe;
+    cursor: pointer;
+}
+.sign-up {
+    color: #db1bbe;
+    cursor: pointer;
+}
+.dont-have-an-container {
+    position: absolute;
+    top: 553px;
+    left: 44px;
+    font-size: 16px;
+    color: #000;
+}
+.welcome-back-parent {
+    position: absolute;
+    top: 187px;
+    left: calc(50% - 299px);
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.8);
+    width: 600px;
+    height: 617px;
+    overflow: hidden;
+    font-size: 20px;
+    color: #232325;
+    border-radius: 42px;
+  
+   
+}
+body {
+    width: 100%;
+    position: relative;
+    height: 1024px;
+    overflow: hidden;
+    background-image: url('WhatsApp\ Image\ 2024-10-13\ at\ 21.57.12_46e2a1f1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 80px;
+    color:rgba(red, rgb(222, 232, 222), rgb(203, 203, 215), alpha);
+    font-family: Poppins;
+    
+}
+.email{
+    position: relative;
+    top: 120px;
+    left: 7px;
+    text-align: center;
+}
+.password{
+    position: relative;
+    top: 180px;
+    left: 9px; 
+    text-align: center;
+}
+input{
+    height: 43px;
+    width: 70%;
+    border-radius: 22px;
+    font-size: larger;
+    text-align: center;
+}
+p{
+    position: relative;
+    left: -181px;
+    font-size: larger;
+}
+h1{
+    font-size: 77px;
+}
